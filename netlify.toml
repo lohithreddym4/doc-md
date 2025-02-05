@@ -1,9 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "out"  # This is where your static files will go after the build
+  publish = ".next"  # Change this from /out to .next
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
