@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "out"  # This is where your static files will go after the build
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
