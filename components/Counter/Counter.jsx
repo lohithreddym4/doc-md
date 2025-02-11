@@ -10,7 +10,7 @@ const Counter = () => {
        <div className="col-lg-3 col-md-6 col-sm-6">
         <div className="counter-stat">
          <i className="icofont icofont-patient-bed"></i>
-         <span className="h3">15</span>k
+         <span className="h3">3L</span>+
          <p>Patients Treated</p>
         </div>
        </div>
@@ -25,7 +25,7 @@ const Counter = () => {
        <div className="col-lg-3 col-md-6 col-sm-6">
         <div className="counter-stat">
          <i className="icofont icofont-award"></i>
-         <span className="h3">10</span>+
+         <span className="h3">25</span>+
          <p>Years of Experience</p>
         </div>
        </div>
